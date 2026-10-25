@@ -48,7 +48,7 @@ Hosting is provided by **GitHub Pages**, not Cloudflare Pages. No new domain, No
 
 **Updating the website:** edit files inside `public/`, commit/push to `main`, then check the [Actions tab](https://github.com/ZahinFuad/atlas-marops-lab/actions) for a successful deployment. Relative HTML and asset paths are used so the site works beneath GitHub Pages' `/atlas-marops-lab/` project path.
 
-**Deployment evidence:** [Run #1, successful after Pages was enabled](https://github.com/ZahinFuad/atlas-marops-lab/actions/runs/40162867036). This proves GitHub's publishing step completed; page functionality must still be smoke-tested in a browser.
+**Deployment evidence:** [Successful GitHub Pages deployment](https://github.com/ZahinFuad/atlas-marops-lab/actions/runs/40162867036). This proves GitHub's publishing step completed; page functionality must still be smoke-tested in a browser.
 
 ## Local development and preview
 
