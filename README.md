@@ -17,7 +17,7 @@ A fictional B2B software agency website used to learn **Marketing Operations (Ma
 | Public-site visual/navigation smoke test | Pending confirmation | GitHub confirmed successful deployment; independent browser checks remain an acceptance step |
 | Contact form | Demo only | Browser-side synthetic JSON preview; **no submission** to Tally, n8n, or HubSpot |
 | Analytics | Not yet configured | GTM and GA4 to be added later, with privacy/consent checks |
-| CRM and email integrations | **HubSpot account access verified; automation not yet connected** | Connected ChatGPT HubSpot CRM: contacts, companies and deals accessible. n8n ↔ HubSpot credential, Tally and Brevo not yet configured |
+| CRM and email integrations | **HubSpot CRM seed data verified; automation not yet connected** | 10 Atlas custom properties, 5 fictional companies, 10 synthetic contacts, and 10 contact-company associations verified (25 Oct 2026). n8n ↔ HubSpot credential, Tally and Brevo not yet configured |
 | Reporting | Not yet configured | HubSpot data → n8n → Sheets → Looker Studio |
 
 The site is live as a static website, **not** yet a working production lead-capture system. GitHub Pages deployment does not imply that CRM, automation, analytics, email, or sales processes are operating.
@@ -102,7 +102,8 @@ GA4 + GTM: separate aggregate on-site tracking (planned)
 
 ## Project documentation
 
-- [**HubSpot CRM Foundation (T005–T010)**](https://docs.google.com/document/d/1YdgpCocS4Y2xjI0qxqQyAgsmvaaocFOswEg8i_OFbgk/edit) — verified CRM structure, proposed Atlas-specific fields and synthetic record safeguards. **No CRM properties or sample records have been created.**
+- [**HubSpot CRM Foundation (T005–T010)**](https://docs.google.com/document/d/1YdgpCocS4Y2xjI0qxqQyAgsmvaaocFOswEg8i_OFbgk/edit) — HubSpot portal audit; **T005–T007 completed**, including 10 custom properties and the approved seed dataset. Native sales pipeline and existing CRM data remain unchanged.
+- [**Synthetic Seed Plan & HubSpot IDs**](https://docs.google.com/spreadsheets/d/1h0Fu4v5KK1K3IJm_KMhYR64mxyB9FywELfLLd9q_Q3E/edit#gid=170008) — approved companies, contacts, associations, record IDs, and verification evidence.
 - [**Project Brief & System Design (T001–T004)**](https://docs.google.com/document/d/17HBh9ghr3EdWAYtroOOvjY-EQRndftSV_8n2nLsiCsE/edit) — the scenario-specific architecture and access decisions.
 - [**Implementation Playbook & Client Reuse Guide**](https://docs.google.com/document/d/1cDRqHQ3g7-wSu8HnRixKLp6SkyCv01UYr_r90-s4soY/edit) — reusable methods and eventual client-delivery framework.
 - [**Project Tracker & Client Template**](https://docs.google.com/spreadsheets/d/1h0Fu4v5KK1K3IJm_KMhYR64mxyB9FywELfLLd9q_Q3E/edit) — task statuses, dependencies, evidence, QA tests and decisions.
